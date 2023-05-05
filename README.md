@@ -9,7 +9,7 @@
 ---------
 
 #### Check-List - Projeto final:
-- [FIGMA](https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0)
+ [FIGMA](https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0)
 - [x] Main.
 - [x] Footer.
 - [x] Animações.
