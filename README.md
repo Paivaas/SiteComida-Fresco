@@ -3,13 +3,13 @@
 > Web Site fundamentado em construção no Figma.
 📝
 ### Ferramentas de apoio para o projeto: 
-* FIGMA: https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0
-* BEHANCE: https://www.behance.net/gallery/86256605/Fresco?tracking_source=search_projects%7Ccomida
+[FIGMA](https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0)
+BEHANCE: https://www.behance.net/gallery/86256605/Fresco?tracking_source=search_projects%7Ccomida
 
 ---------
 
 #### Check-List - Projeto final:
- [FIGMA](https://www.figma.com/file/2M0kF40LUvHffMfAWdnzhR/Comida?node-id=1-4&t=o46zux7aUHV3F9P1-0)
+- [x] Header.
 - [x] Main.
 - [x] Footer.
 - [x] Animações.
