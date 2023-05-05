@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/background2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* menu */
+
+header{
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    height: 100px;
+    justify-content: center;
+}
+
+.menu{
+    width: 35%;
+    padding: 60px;
+    padding-left: 140px;
+} 
+
+a{
+    color: #FFF7DD;
+    justify-content: center;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.link-container{
+    display:flex;
+    gap: 15px;
+}
+.link-container a{
+    padding: 6px;
+    border-radius: 10px;
+    transition: all .5s;
+    
+}
+.l1:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.l2:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.l3:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+
+/* Entrega */
+.entrega{
+    display: flex;
+    width: 330px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 55px 55px;
+    color: #01B494;
+    gap: 20px;
+}
+.Delivery{
+    color: #01B494;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+}
+
+.iconesocial{
+    display: inline;
+    text-align: right;
+    width: 50%;
+    padding: 50px;
+    padding-right: 7%;
+}
+
+/* conteudo */
+main{
+    height: 70vh;
+    display: flex;
+    padding: 20px;
+}
+  /* titulo */
+
+.nada1{
+    width: 5vw;
+}
+.titulo{
+    justify-content: center;
+    width: 400px;
+}
+  
+  /* descrição */
+.nada2{
+    height: 73%;
+}
+.descricao-texto{
+     width: 160px;
+     font-family: 'League Spartan', sans-serif;
+     color: white;
+}
+  
+/* imagem principal */
+.nada3{
+    width: 70vw; 
+}
+.prato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -45%);
+    width: 40vw; 
+}
+  
+main{
+    height: 70vh;
+}
+/* Cadratro */
+footer{
+    height:10vh;
+    font-family: 'League Spartan', sans-serif;
+}
+.cadastro{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.botao{
+    background-color: #FEA4A6;
+    padding: 12px;
+    border-radius: 50px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.texto{
+    color: FDFBF3;
+}
+.botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.texto:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
