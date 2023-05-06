@@ -18,4 +18,4 @@
 ---------
 
 ##### Estou aprendendo:
-<img src="https://www.rhbinformatica.com.br/arquivos/2017/10/logo-html-css.png" width="100px">
+<img src="[https://www.rhbinformatica.com.br/arquivos/2017/10/logo-html-css.png](https://cdn-icons-png.flaticon.com/512/524/524545.png)" width="100px">
