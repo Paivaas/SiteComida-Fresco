@@ -18,5 +18,5 @@
 ---------
 
 ##### Estou aprendendo:
-<img src="https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png" width="100px"><img src="https://cdn-icons-png.flaticon.com/512/524/524545.png" width="100px">
+<img src="https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png" width="100px"><img src="https://cdn-icons-png.flaticon.com/512/524/524545.png" width="90px">
 
