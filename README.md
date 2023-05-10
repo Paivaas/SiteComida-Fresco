@@ -1,4 +1,4 @@
-# LionSchol <img src="https://i.pinimg.com/originals/a9/c8/b8/a9c8b8bda377e08cfdaf21f988600592.gif" width="100px">
+# LionSchool <img src="https://i.pinimg.com/originals/a9/c8/b8/a9c8b8bda377e08cfdaf21f988600592.gif" width="100px">
 
 > Web Site fundamentado em construção no Figma.
 📝
