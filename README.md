@@ -1,4 +1,4 @@
-# SiteComida <img src="https://i.pinimg.com/originals/b7/92/77/b79277704a1eb59f428b207b0d414329.gif" width="100px">
+# LionSchol <img src="https://i.pinimg.com/originals/a9/c8/b8/a9c8b8bda377e08cfdaf21f988600592.gif" width="100px">
 
 > Web Site fundamentado em construção no Figma.
 📝
