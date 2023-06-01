@@ -157,3 +157,97 @@ footer{
     transform: scale(1.1);
 }
 
+@media(max-width:1024px){
+
+
+    body{
+        overflow: hidden;
+        background-color: #01B494;
+    }
+    header{
+        padding-right: 100px;
+        display: grid;
+        grid-template-areas: 
+          "menu entrega"
+          "social social";
+        height: 40vh;
+        width: 740px;;
+       }
+       .menu{
+         grid-area: menu;
+         height: 70px;
+         gap: 2px;
+         padding-left: 50px;
+     }
+     
+     .link-container{
+        padding-left: 10px;
+     }
+     .entrega{
+         padding: 50px 50px;
+         grid-area: entrega;
+         width: 200px;
+         display: flex;
+         height: 120px;
+         
+        border-radius: 0px 0px 65px 65px;
+       }
+       
+       .iconesocial{
+         grid-area: social;
+         width: 100px;
+         margin-left: 520px;
+       }
+       .titulo{
+         position: absolute;
+         top: 5%;
+         left: -1%;
+         transform: translate(-0%, 0%);
+       }
+       
+       main{
+         height: 30vh;
+         
+       }
+      
+       
+       .prato{
+        position: absolute;
+        top: 62%;
+        left: 20%;
+        transform: translate(-0%, -45%);
+        width: 40vw;
+       }
+       .nada{
+         height: 0;
+       }
+       .descriçao{
+         margin-left: 560px;
+     }
+       .nada2{
+         height: 0;
+       }
+       .descricao-texto{
+         width: 300px;
+         padding-left: 150px;
+       }
+       
+       footer{
+         padding-top: 0px;
+     
+       }
+       .cadastro{
+         display: grid;
+         gap: 7px;
+       }
+       .botao{
+         width: 180px;
+         
+       }
+       .texto{
+         color: #FEA4A6;
+      
+         width: 180px;
+         text-align: center;
+       }
+}
