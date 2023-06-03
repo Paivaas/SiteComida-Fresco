@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,7 @@
     <title>FRESco</title>
 </head>
 <body>
+    
     <header>
   
         <nav class="menu">
@@ -21,35 +23,38 @@
           </ul>
         </nav>
         
-        <nav class="entrega">
-            <img class="icone" src="./img/delivery.png" width="35px" height="20px">
-            <a href="#" ><p class="Delivery">DELIVERY GRATIS</p></a>
-        </nav>
+        <div class="entrega">
+            <div class="entrega-conteiner">
+                <img class="icone" src="./img/delivery.png">
+                <a href="#" ><p class="Delivery">DELIVERY GRATIS</p></a>
+            </div>
+        </div>
         
-        <nav class="iconesocial">
+        <div class="iconesocial">
           <a href="#" ><img src="./img/cadeado.png" width="42px" height="35px" ></a>
-          <a href="#" ><img src="./img/instagram.svg"></a>
-          <a href="#" ><img src="./img/twitter.svg"></a>
+          <a class="redesSociais" href="#" ><img src="./img/instagram.svg"></a>
+          <a class="redesSociais" href="#" ><img src="./img/twitter.svg"></a>
           
-        </nav>
+        </div>
     </header>
 
     <main>
-      <div class="nada1"></div>
-      <div class="titulo"><img src="./img/iconn.svg" height="400px" width="450px"></div>
-      <div class="descriçao">
-         <div class="nada2"></div>
-         <div class="descricao-texto"><p>This is Photshops’s version of Lorem Impsum. Proin gravid nibh vel velit</p></div>
-      </div>
-      <div class="nada3"></div>
-      <div class="prato"><img src="./img/prato.svg" height="600px" width="600px"></div>
+        <div class="conteudo">
+            <div class="imagemTitulo"></div>
+            <div class="textoDescricao"><p>This is Photshops’s version of Lorem Impsum. Proin gravid nibh vel velit</p></div>
+            <div class="imagemPrato"></div>
+        </div>
     </main>
 
     <footer>
-      <div class="cadastro">
-        <p class="botao">REGISTRE-SE</p>
-        <p class="texto">Iniciar seção</p>
-      </div>
-    </footer>
+        <div class="cadastro">
+          <p class="botao">REGISTRE-SE</p>
+          <p class="texto">Iniciar seção</p>
+        </div>
+      </footer>
+
 </body>
+      <div class="imagemPrato__Desktop"><img src="./img/prato.svg" height="600px" width="600px" alt=""></div>
+      <div class="imagemPrato__Tablet"><img src="./img/prato.svg" height="600px" width="600px" alt=""></div>
+      <div class="imagemPrato__Mobile"></div>
 </html>
