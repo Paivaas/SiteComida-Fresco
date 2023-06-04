@@ -4,35 +4,10 @@
     box-sizing: border-box;
 }
 
-@media(max-width:604px){
-
-    html{
-        width: 100%;
-    }
-    body{
-        background-color: #01B494;
-        width: 10px;
-        overflow: hidden;
-        font-family: 'League Spartan', sans-serif;
-        height: 100vh;
-    }
-
-    .imagemPrato__Desktop{
-        display: none;
-    }
-    .imagemPrato__Tablet{
-        display: none;
-    }
-    
-
-    
-    
-
-   
-
-}
 
 @media(max-width:1024px){
+
+    
     body{
         background-image: url(./img/background-tablet.png);
         background-repeat: no-repeat;
@@ -143,7 +118,6 @@
         top: 73%;
         left: 30%;
         transform: translate(-0%, -45%);
-
     }
 
 
@@ -178,11 +152,18 @@
         cursor: pointer;
         transform: scale(1.1);
     }
+    .imagemTitulo__Mobile{
+        display: none;
+    }
 
     .imagemPrato__Mobile{
         display: none;
     }
     .imagemPrato__Desktop{
+        display: none;
+    }
+
+    .imagemMenu__Mobile{
         display: none;
     }
 
@@ -325,12 +306,109 @@ footer{
     cursor: pointer;
     transform: scale(1.1);
 }
-
+.imagemTitulo__Mobile{
+    display: none;
+}
 .imagemPrato__Tablet{
     display: none;
 }
 .imagemPrato__Mobile{
     display: none;
 }
+
+.imagemMenu__Mobile{
+    display: none;
+}
+
+}
+
+@media(max-width:704px){
+
+
+    body{
+        overflow: hidden;
+        background-image: url(./img/background-tablet.png);
+    }
+    .imagemTitulo__Mobile{
+        display: block;
+    }
+    .imagemTitulo{
+        display: none;
+    }
+    .textoDescricao{
+        display: none;
+    }
+    .menu{
+    display: none;
+    } 
+    .entrega{
+    display: none;
+    }
+    .iconesocial{
+        padding-top: 16px;
+        padding-left: 320px;
+    }
+    .imagemPrato__Tablet{
+    display: none;
+    }
+
+    .imagemTitulo__Mobile{
+        display: block;
+        position: absolute;
+        top: 23%;
+        left: 10%;
+        transform: translate(-0%, -45%);
+    }
+
+    .imagemPrato__Mobile{
+        display: block;
+        position: absolute;
+        top: 65%;
+        left: -0%;
+        transform: translate(-0%, -45%);
+        z-index: -1;
+    }
+
+    footer{
+        height: 15vh;
+    }
+
+    .cadastro{
+        width: 240px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 20px;
+        color: white;
+    }
+    .botao{
+        background-color: #FEA4A6;
+        border-radius: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .texto{
+        color: FDFBF3;
+        padding-left: 50px;
+    }
+    .botao:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .texto:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .imagemMenu__Mobile{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        transform: translate(-0%, -45%);
+        z-index: -1;
+    }
+
+
+
 
 }
