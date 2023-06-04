@@ -14,5 +14,5 @@
 - [x] Main.
 - [x] Footer.
 - [x] Animações.
-- [ ] Responsividade.
+- [x] Responsividade.
 
